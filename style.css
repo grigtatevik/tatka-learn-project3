@@ -85,9 +85,12 @@ li {
     border-right: 2px solid #fff;
 }
 
+.contacts {
+    float: right;
+}
+
 .phone-number {
     padding: 15px 0 5px;
-    float: right;
     color: #777;
     font-size: 40px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -100,8 +103,7 @@ li {
     font-size: 24px;
     font-weight: bold;
     color: #767676;
-    float: right;
-    margin: 115px -251px 0 0;
+    text-align: right;
 }
 
 .feedback a {
@@ -114,7 +116,7 @@ li {
 }
 
 .centerblock {
-    
+
 }
 
 .footer {

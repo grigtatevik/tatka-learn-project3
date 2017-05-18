@@ -1,0 +1,155 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-wrapper {
+    min-height: 100%;
+}
+
+.page-wrapper::after {
+    content: "";
+    height: 220px;
+    display: block;
+}
+
+.work-area {
+    width: 980px;
+    margin: 0 auto; 
+}
+
+.logo {
+    width: 273px;
+    height: 100px;
+}
+
+.header {
+    height: 210px;
+    background-color: #dcdcdc;
+}
+
+.logo {
+    margin-top: 45px;
+    float: left;
+}
+
+.menu {
+    background-color: #777;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 26px 0 26px;
+    margin: 0;
+    font-weight: regular;
+    height: 28px;
+}
+
+.menu .work-area ul {
+    margin-left: 16px;
+}
+
+.menu .work-area li {
+    display: inline-block;
+    padding: 0 19px;
+    height: 25px;
+}
+
+.menu .work-area a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu .work-area a:hover {
+    text-decoration: underline;
+}
+
+.menu .work-area li:not(:last-child) {
+    border-right: 2px solid #fff;
+}
+
+.phone-number {
+    padding: 46px 0 26px;
+    float: right;
+    color: #777;
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    line-height: 47px;
+    width: 256px;
+}
+
+.footer {
+    height: 220px;
+    margin-top: -220px;
+    background: #767676;
+}
+
+.footer-container {
+    padding-top: 45px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.copytext {
+    float: left;
+}
+
+.footer-menu {
+    float: left;
+    margin-left: 159px;
+}
+
+.footer-menu li {
+    padding-bottom: 4px;
+}
+
+.developer::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("./images/before.png");
+    width: 36px;
+    height: 38px;
+    top: 5px;
+    left: 10px;
+}
+
+.developer {
+    float: right;
+    position: relative;
+    padding-left: 56px;
+    margin-right: 10px;
+    width: 170px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}

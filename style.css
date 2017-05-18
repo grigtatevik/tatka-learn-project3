@@ -86,7 +86,7 @@ li {
 }
 
 .phone-number {
-    padding: 46px 0 26px;
+    padding: 15px 0 5px;
     float: right;
     color: #777;
     font-size: 40px;
@@ -96,10 +96,32 @@ li {
     width: 256px;
 }
 
+.feedback {
+    font-size: 24px;
+    font-weight: bold;
+    color: #767676;
+    float: right;
+    margin: 115px -251px 0 0;
+}
+
+.feedback a {
+    color: #767676;
+    text-decoration-style: dashed;
+}
+
+.leftblock {
+
+}
+
+.centerblock {
+    
+}
+
 .footer {
     height: 220px;
     margin-top: -220px;
     background: #767676;
+    color: #fff;
 }
 
 .footer-container {
@@ -152,4 +174,15 @@ a:hover {
     content: "";
     display: block;
     clear: both;
+}
+
+.proverka {
+    position: absolute;
+    background-image: url("./images/pixelplus.ru-test-v3.jpg");
+    width: 1400px;
+    height: 1715px;
+    left: -56px;
+    top: -20px;
+    opacity: 0.5;
+    display: none;
 }

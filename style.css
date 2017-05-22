@@ -217,6 +217,7 @@ li {
 .centerblock {
     float: right;
     width: 780px;
+    border-bottom: 1px solid #444;
 }
 
 .goods {
@@ -246,8 +247,9 @@ li {
 .description {
     font-size: 18px;
     color: #8e8e8e;
-    margin: -133px 0 0 11px;
+    margin: -135px 0 0 11px;
     padding: 10px;
+    line-height: 19px;
 }
 
 .value {
@@ -256,7 +258,35 @@ li {
     color: #444444;
     letter-spacing: 2px;
     padding: 18px;
-    margin-top: 21px;
+    margin-top: 27px;
+}
+
+.pager {
+    width: 720px;
+    height: 54px;
+    float: right;
+    text-align: center;
+    padding: 28px 26px;
+    letter-spacing: 8px;
+}
+
+.pager a {
+    color: #ababab;
+    text-decoration: none;
+}
+
+.pager a:hover {
+    font-weight: bold;
+}
+
+pager a:active {
+    color: #444444;
+    font-size: 18px;
+}
+
+span {
+    color: #444444;
+    font-size: 18px;
 }
 
 .footer {

@@ -111,12 +111,152 @@ li {
     text-decoration-style: dashed;
 }
 
-.leftblock {
+.slider {
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    background-color: #f8f8f8;
+}
 
+.slider-circle {
+    opacity: 0.5;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+}
+
+.slider-circle1 {
+    background: #d0d4f3;
+    width: 325px;
+    height: 325px;
+    transform: translate(-618px, 109px);
+}
+
+.slider-circle2 {
+    background: #d4e2d0;
+    width: 177px;
+    height: 177px;
+    transform: translate(-370px, 50px);
+}
+
+.slider-circle3 {
+    background: #fae4d1;
+    width: 300px;
+    height: 300px;
+    transform: translate(-216px, 50px);
+}
+
+.slider-circle4 {
+    background: #d4e2d0;
+    width: 177px;
+    height: 177px;
+    transform: translate(453px, 202px);
+}
+
+.slider-circle5 {
+    background: #fae4d1;
+    width: 300px;
+    height: 300px;
+    transform: translate(330px, -64px);
+}
+
+.slider-circle6 {
+    background: #d0d4f3;
+    width: 226px;
+    height: 226px;
+    transform: translate(143px, 74px);
+}
+
+.leftblock  {
+    width: 173px;
+    color: #767676;
+    float: left;
+    margin-top: 20px;
+}
+
+.bread-crumbs a {
+    color: #767676;
+}
+
+.bread-crumbs  li {
+    display: inline-block;
+    padding-right: 10px;
+    color: #767676;
+    margin-top: 4px;
+}
+
+.bread-crumbs li:not(:last-child):after {
+    content: "/";
+    padding-left: 5px;
+}
+
+.left-menu {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.leftblock .left-menu li {
+    display: block;
+}
+
+.leftblock .left-menu a {
+    text-decoration: none;
+    color: #767676;
+}
+
+.left-menu-submenu {
+    font-size: 14px;
+    padding: 9px 0 0 19px;
+}
+
+.left-menu a:hover {
+    text-decoration: underline;
 }
 
 .centerblock {
+    float: right;
+    width: 780px;
+}
 
+.goods {
+    margin-left: -15px;
+}
+
+.product {
+    width:250px;
+    height: 378px;
+    background-color: #dcdcdc;
+    float: left;
+    margin: 24px 0 0 15px;
+}
+
+.goodsphoto {
+    width: 210px;
+    height: 209px;
+    margin: 18px;
+}
+
+.addtobasket_mini {
+    width: 28px;
+    height: 21px;
+    margin: 91px 0 0 185px;
+}
+
+.description {
+    font-size: 18px;
+    color: #8e8e8e;
+    margin: -133px 0 0 11px;
+    padding: 10px;
+}
+
+.value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #444444;
+    letter-spacing: 2px;
+    padding: 18px;
+    margin-top: 21px;
 }
 
 .footer {
@@ -124,6 +264,7 @@ li {
     margin-top: -220px;
     background: #767676;
     color: #fff;
+    list-style: none;
 }
 
 .footer-container {

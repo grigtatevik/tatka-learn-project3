@@ -16,7 +16,7 @@
                         <div>+7(499) 777-77-77</div>
                         <div>+7(499) 777-77-77</div>
                     </div>
-                    <div class="feedback">
+                    <div class="feedback-link">
                     <a href="#">Обратная связь</a>
                     </div>
                 </div>
@@ -55,9 +55,9 @@
                     <div class="leftblock">
                         <ul class="left-menu">
                             <li><a href="#">Автомобили</a></li>
-                            <li><a href="#">Бытовая техника</a></li>
+                            <li><a href="#" class="active">Бытовая техника</a></li>
                                 <ul class="left-menu-submenu">
-                                    <li><a href="#">Микроволновки</a></li>
+                                    <li><span class="active">Микроволновки</span></li>
                                     <li><a href="#">Холодильники</a></li>
                                     <li><a href="#">Посудомоечные машины<a></li>
                                     <li><a href="#">Чайники</a></li>
@@ -67,43 +67,47 @@
                             <li><a href="#">Одежда</a></li>
                             <li><a href="#">Недвижимость</a></li>
                         </ul>
+                        <a class="pricelist-link" href="#">
+                            <img src="./images/mc-ecsel.png" alt="текст" />
+                            <div class="pricelist-link-text">Прайс-лист</div>
+                        </a>
                     </div>
-                    <div class="centerblock clearfix">
-                        <div class="goods">
+                    <div class="centerblock">
+                        <div class="goods clearfix">
 
                             <div class="product">
                                 <img class="goodsphoto" src="./images/goodsphoto.png" alt="текст" />
                                 <img class="addtobasket_mini" src="./images/addtobasket_mini.png" alt="текст" />
                                 <div class="description">Самый клевый чайник, который надо купить!</div>
-                                <div class="value">1900 p.</div>
+                                <div class="value">1 900 p.</div>
                             </div>
 
                             <div class="product">
                                 <img class="goodsphoto" src="./images/goodsphoto.png" alt="текст" />
                                 <img class="addtobasket_mini" src="./images/addtobasket_mini.png" alt="текст" />
                                 <div class="description">Самый клевый чайник, который надо купить!</div>
-                                <div class="value">1900 p.</div>
+                                <div class="value">1 900 p.</div>
                             </div>
 
                             <div class="product">
                                 <img class="goodsphoto" src="./images/goodsphoto.png" alt="текст" />
                                 <img class="addtobasket_mini" src="./images/addtobasket_mini.png" alt="текст" />
                                 <div class="description">Самый клевый чайник, который надо купить!</div>
-                                <div class="value">1900 p.</div>
+                                <div class="value">1 900 p.</div>
                             </div>
 
                             <div class="product">
                                 <img class="goodsphoto" src="./images/goodsphoto.png" alt="текст" />
                                 <img class="addtobasket_mini" src="./images/addtobasket_mini.png" alt="текст" />
                                 <div class="description">Самый клевый чайник, который надо купить!</div>
-                                <div class="value">1900 p.</div>
+                                <div class="value">1 900 p.</div>
                             </div>
 
                             <div class="product">
                                 <img class="goodsphoto" src="./images/goodsphoto.png" alt="текст" />
                                 <img class="addtobasket_mini" src="./images/addtobasket_mini.png" alt="текст" />
                                 <div class="description">Самый клевый чайник, который надо купить!</div>
-                                <div class="value">1900 p.</div>
+                                <div class="value">1 900 p.</div>
                             </div>
                         </div>
                         <div class="pager">
@@ -114,6 +118,30 @@
                             <a href="#">5</a>
                             <a href="#">6</a>
                             <a href="#">7</a>
+                        </div>
+                        <div class="company-description clearfix">
+                            <div class="company-description-left">
+                                Компания «Пиксель Плюс» существует более 6 лет, за это
+                                время мы принимали участие в разработке более чем
+                                700 сайтов, поэтому можем уверенно называть себя
+                                профессионалами. На данный момент наш коллектив
+                                состоит из более чем 30 сотрудников работающих в двух
+                                офисах в Москве и Зеленограде.характерные для этого
+                                жанра мотивы: неразделённой любви, ухода молодости,
+                                угасания души. 
+                            </div>
+                            <div class="company-description-right">
+                                Одним из основных направленийработ нашей компании
+                                является поисковое продвижение сайтов, на данной
+                                момент мы работаем с более чем 150 постоянными
+                                клиентами по более чем 11 000 поисковым запросам.
+                                При этом в работе основной акцент мы делаем на каче-
+                                стве работ, а так же применяем собственные уникальные
+                                разработки в области SEO продвижения. На данный
+                                момент отдел SEO состоит из 9 человек под руковод-
+                                ством ведущего специалиста, преимущественно работа-
+                                ющих в нашем московском офисе.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -146,6 +174,20 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="feedback-dialoge">
+        <h1>ОБРАТНАЯ СВЯЗЬ</h1>
+        <form action="https://echo.htmlacademy.ru" method="post">
+            <label for="field name">Ваше имя *</label><br>
+            <input type="text" name="login" id="field name">
+            <label class="number" for="field contacts">Телефон *</label><br>
+            <input type="number" name="phone" id="field contacts">
+            <label class="mail"for="fiel mail">Email *</label><br>
+            <input class="input-mail"type="text" required placeholder="Поле обязательно для заполнения" name="mail" id="field mail">
+            <label class="message"for="fiel message">Сообщение *</label><br>
+            <input class="input-message"type="text" name="message" id="field message">
+            <input class="send-button" type="submit" value="ОТПРАВИТЬ">
+        </form>
     </div>
 
     <div class="proverka"></div>

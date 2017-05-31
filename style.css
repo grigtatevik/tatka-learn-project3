@@ -90,7 +90,8 @@ li {
 }
 
 .phone-number {
-    padding: 15px 0 5px;
+    padding: 14px 0 6px;
+    text-align: right;
     color: #777;
     font-size: 40px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -99,14 +100,14 @@ li {
     width: 256px;
 }
 
-.feedback {
+.feedback-link {
     font-size: 24px;
     font-weight: bold;
     color: #767676;
     text-align: right;
 }
 
-.feedback a {
+.feedback-link a {
     color: #767676;
     text-decoration-style: dashed;
 }
@@ -168,11 +169,15 @@ li {
     transform: translate(143px, 74px);
 }
 
+.content {
+    padding-bottom: 197px;
+}
+
 .leftblock  {
     width: 173px;
     color: #767676;
     float: left;
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 .bread-crumbs a {
@@ -196,8 +201,8 @@ li {
     text-decoration: none;
 }
 
-.leftblock .left-menu li {
-    display: block;
+.leftblock .left-menu>li {
+    padding-top: 8px;
 }
 
 .leftblock .left-menu a {
@@ -207,17 +212,25 @@ li {
 
 .left-menu-submenu {
     font-size: 14px;
-    padding: 9px 0 0 19px;
+    padding-left: 19px;
 }
 
 .left-menu a:hover {
     text-decoration: underline;
 }
 
+.left-menu-submenu .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.leftblock .left-menu .active {
+    text-decoration: underline;
+}
+
 .centerblock {
     float: right;
     width: 780px;
-    border-bottom: 1px solid #444;
 }
 
 .goods {
@@ -235,7 +248,7 @@ li {
 .goodsphoto {
     width: 210px;
     height: 209px;
-    margin: 18px;
+    margin: 19px;
 }
 
 .addtobasket_mini {
@@ -256,18 +269,16 @@ li {
     font-size: 28px;
     font-weight: bold;
     color: #444444;
-    letter-spacing: 2px;
-    padding: 18px;
+    letter-spacing: 1px;
+    padding: 18px 0 0 17px;
     margin-top: 27px;
 }
 
 .pager {
-    width: 720px;
-    height: 54px;
-    float: right;
     text-align: center;
-    padding: 28px 26px;
     letter-spacing: 8px;
+    padding: 28px 0 61px 9px;
+    border-bottom: 1px solid #444;
 }
 
 .pager a {
@@ -284,9 +295,35 @@ pager a:active {
     font-size: 18px;
 }
 
-span {
-    color: #444444;
-    font-size: 18px;
+.company-description {
+    margin-top: 24px;
+}
+
+.company-description-left {
+    width: 370px;
+    float: left;
+}
+
+.company-description-right {
+    width: 370px;
+    float: right;
+}
+
+.pricelist-link {
+    text-align: center;
+    display: block;
+    margin: 106px 0 0 6px;
+    text-decoration: none;
+}
+
+.pricelist-link-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #444;
+}
+
+.pricelist-link:hover .pricelist-link-text {
+    text-decoration: underline;
 }
 
 .footer {
@@ -349,11 +386,70 @@ a:hover {
     clear: both;
 }
 
+.feedback-dialoge {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 466px;
+    height: 578px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 24px;
+    color: #535353;
+    padding: 13px 0px 10px 135px;
+    margin-top: 20px;
+}
+
+input {
+    border: 1px solid #c3c3c3;
+    width: 339px;
+    height: 38px;
+    margin: 2px 0 14px 63px;
+}
+
+label {
+    padding: 2px;
+    margin-left: 201px;
+}
+
+.number {
+    margin-left: 206px;
+}
+
+.message {
+    margin-left: 196px;
+}
+
+.mail {
+    margin-left: 214px;
+}
+
+.input-mail {
+    border: 1px solid #ff8383;
+    box-shadow: inset 0px 0px 15px 0px #ff8383;
+}
+
+.input-message {
+    height: 138px;
+    margin-top: 2px;
+}
+
+.send-button {
+    width: 128px;
+    height: 42px;
+    font-size: 15.77px;
+    color: white;
+    background-color: #777;
+    margin: 7px 0 0 168px;
+}
+
 .proverka {
     position: absolute;
-    background-image: url("./images/pixelplus.ru-test-v3.jpg");
+    background-image: url("./images/pixelplus.ru-test-v3r.jpg");
     width: 1400px;
-    height: 1715px;
+    height: 2315px;
     left: -56px;
     top: -20px;
     opacity: 0.5;
